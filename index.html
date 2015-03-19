@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - PFeron Project 1</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="project1.css">
+  <title>Project 1</title>
+</head>
+<body>
+  <h1>Basic HTML and Internet Concepts</h1>
+  <h1 id="toc">Table of Contents</h1>
+  <div class="toc">
+      <ol>
+        <li><a href="#lesson-1">Lesson 1</a>
+          <ul class="table">
+            <li><a href="#lesson-1-1">How the Internet works</a></li>
+            <li><a href="#lesson-1-2">HTML</a><li>
+            <li><a href="#lesson-1-3">TAGS</a><li>
+            <li><a href="#lesson-1-4">Computers are Stupid</a><li>
+          </ul>
+        <li><a href="#lesson-2">Lesson 2: Structure and Style</a></li>
+        <li><a href="#lesson-3">Lesson 3: CSS and Box Model</a></li>
+        <li><a href="#notes">Notes and References</a></li>
+      </ol>
+  </div>
+    <h3 id="lesson-1">Lesson 1</h3>
+        <div class="lessonbox">
+          <h2 id="lesson-1-1">How the Internet works</h2>
+            <ul class="notes">
+              <li>The internet is a collection of computers and 
+                servers that are connected to each other</li>
+              <li>The WEB is a collection of HTML pages</li>
+              <li>Web browser use HTML as there language to communicate</li>
+              <li>HTML allows computers to interpret web pages and display then so users can easily read them</li>
+              <li>So when users type <a href="https://www.google.com">www.google.com</a> into there web browser the browsers makes a request using HTML</li>
+            </ul>
+        <a Href="#toc">Return</a>
+        </div>
+          <div class="lessonbox"> 
+                <h2 id="lesson-1-2">HTML</h2>
+              <ul class="notes">
+                 <li>HTML is made up of the following:</li>
+                  <li>Text Content (The plain text you write you actually see)</li>
+                <li>Mark ups (What it looks like. <b>Tags</b> are used to display images and video's)</li>
+                <li>References to other Web sites</li>
+                  <li>Links to other pages</li>
+            </ul>
+                <h4>In-Line vs Block elements</h4>
+            <ul class="notes">
+                <li>Block elements form an invisible box around the elements, div tags are an example.</li>
+              <li>In-line applies to that spefic line of code.  Span tags are a good example. </li>
+              </ul>
+            <a Href="#toc">Return</a>
+          </div>
+        <div class="lessonbox">
+            <h2 id="lesson-1-3">TAGS</h2>
+            <ul Class="notes">
+               <li>HTML Mark-ups are made with <em>"tags"</em></li>
+              <li>Tags have <em>"Contents"</em> between them</li>
+              <li><em>Contents</em> are what the <b>computer</b> will display and 
+              <em>tags</em> are what tell the computer how to display them</li>
+              <li>Here is a link <a href="http://webdesign.about.com/od/beginninghtmlglossary/g/html_tag.htm">defining</a> tags</li>
+              <li>Tags are contained with in the angles brackets like this 
+                &lt;and&gt; </li>
+              <li>Tags must have openings &lt; and may have closing /&gt; but some are <em>void</em> and do not need a closing tag</li>
+            </ul>
+          <a Href="#toc">Return</a>
+        </div>
+          <div class="lessonbox">
+            <h2 id="lesson-1-4">Computers are Stupid</h2>
+            <ul class="notes">
+              <li>Computers are stupid.  They take everything in code literally. When using code you need to make sure you tell the computer exactly what to say for example:</li>
+            </ul>
+              <p class="indent">
+              -When you use some tags <b> You need to tell the computer when to STOP or else you will keep going like this</b> so I need to remember tags</p>
+            <ul class="notes">
+              <li> The most important thing:
+            </ul>
+              <p class="indent">-Programmers can't remember everything and there is a lot of information on the internet!</p>
+               <a Href="#toc">Return</a>
+          </div>
+    <div class="lessonbox">
+      <div class="standard">
+        <h2 id="lesson-2">Lesson 2: Structure and Style</h2>
+            <ul class="notes">
+              <li>HTML is what forms the structure of the page</li>
+              <li>CSS is what makes the style (How it looks)</li>
+              <li> DOM is a tree like structure that Programmers use to help set-up pages</li>
+              <li><B>Boxes Boxes Boxes</B> Programer visualize a web site as structured boxes</li>
+              <li>If I understand span tags <span style="color:blue">They cover everything in-line like this</span></li>
+              <li>If I understand div tags they will cover everything in a block or "box"</li> 
+              <li>The line in blue above was a span tag and the Red "box" is a div with in the yellow "Box"</li>
+            </ul>
+       <a Href="#toc">Return</a>
+      </div>
+    </div>
+    <div class ="lessonbox">
+      <div class="standard">
+        <h2 id="lesson-3">Lesson 3: CSS and Box Model</h2>
+           <ul class="notes">
+             <li>CSS: Cascading Style Sheets
+              <li>The box model will help set up the Margin, Border, Padding and Content</li>
+              <li>remember box sizing:border-box</li>
+              <li>Flex Box display: Flex;</li>
+              <li>Remember BOXES.  I found by playing around and breaking down boxes into boxes I got a better understanding of what to do.  Now I just need to get more familiar with css to manipulate the boxes!</li>
+              <li>Write-Test-Rewrite-Test never ends</li>
+              <li>Also forgetting things like ; and px, or using = instead of : can cause a lot of frustration</li>
+              <li>Using the correct <em>syntax</em> is important too!
+              <li> We learned about inherit text and the related properties.  I found when you forget to close a tag the sub elements will inherit those properties. For example: when I deleted my closing H1 tag the entire document aligned to the "center"</li>
+             <li>We learned about using "classes" to target specific elements of a doc
+              <li>"Classes" also help to avoid repetition and mistakes, and they help when editing is needed.  
+            </ul>
+      </div>
+      <a Href="#toc">Return</a>
+    </div>
+  <h3 id="notes">NOTES:</h3>
+  <div class="end">
+    <ul class="table">
+	    <li><a href=http://www.w3schools.com/tags/tag_img.asp>www.w3school.com</a> is a good tool to reference many tags</li>
+	     <li><a href=https://css-tricks.com>www.css-tricks.com</a> is a good site to research css codes</li>
+     </ul>
+    <a Href="#toc">Return</a>
+  </div>
+    <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+        </a>
+    </p>      
+</body>
+
+</body>
+
+</html>

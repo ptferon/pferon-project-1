@@ -1,0 +1,38 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+h1 {color:Black; text-align: center; background-color:white} 
+h2 {background-color:gray; text-align:center;border-radius: 15px;}
+h3 {color:Black; text-align: center; background-color:gray; font-size: 15px;border-radius: 15px;}
+h4 {text-indent: 50px; font-size: 15px}
+div.toc {
+  font-size: 25px;
+	padding: 15px;
+	margin: 0px;
+	text-align: left;}
+ul.table {list-style-type: none;}
+
+ul.notes {list-style-type: square;
+font-size: 15px;
+padding: 10px;
+border: 10px;
+margin: 20px;}
+
+ul.important {list-style-type:square}
+
+p.indent{text-indent: 50px;font-size: 15px;}
+
+div.lessonbox {background-color: yellow;
+border-radius: 15px;  
+padding: 10px;
+border: 10px;
+margin: 20px}
+
+div.standard {background-color:Red;
+border-radius: 15px;}
+
+div.end {font-size:15px;}
